@@ -2,20 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.background {
+    background-image: url(../assets/9602bc4b-cfc4-410e-b291-611d478c9d6a.png);
+    background-position: center;
+    background-size: cover
+    
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.contact-background {
+    background-color: #0069f7;
+    margin-right: 450px;
+    margin-left: 450px;
+    box-shadow: 5px 5px 10px;
 }
